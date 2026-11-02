@@ -9,3 +9,26 @@
     padding: 10px;
     font-size: 0.5rem;
 }
+a:hover,
+a:focus {
+  font-style: italic;
+}
+h2{
+    text-align: center;
+    font-size: 250%;
+    padding: 1em;
+    /*border: 4px solid red;*/
+    
+}
+h3{
+    text-align: center;
+    font-size: 150%;
+	padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: -1em;
+    border: 4px solid red;
+	border-radius: 0.5em;
+    
+}
