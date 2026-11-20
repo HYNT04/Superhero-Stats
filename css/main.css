@@ -67,19 +67,31 @@ main {
 		font-style: italic;
 		padding-left: 1em;
 	}
-	& h2 + img { /* speaker images */
+	/*& h2 + img { /* speaker images 
 		width: clamp(40px, 50%, 75px);
-		border: 4px double blue;
+		border: 40px double blue;
 		border-radius: 10px;
-	}
+	}*/
 }
 .card-img-top {
   height: 50vh;
   object-fit: cover;
 }
 
+.featured {
+	border-top: 4px solid blue;
+	border-bottom: 4px solid blue;
+	padding: .5em 0 1em;
+}
+h2 {
+}
+h1, h2, h3, p, ul {
+	padding: .25em 0;
+}
+
 section {
 	flex-basis: 75%;
+  font-size: 1.5rem;
 	padding-left: .5em;
 	& img {
 		width: clamp(100px, 50%, 250px);
@@ -87,13 +99,13 @@ section {
 		margin: 0 1em .25em;
 	}
 }
-.featured {
-	border-top: 2px solid brown;
-	border-bottom: 2px solid yellow;
-	padding: .5em 0 1em;
+
+/* the styles for the aside */
+aside {
+	flex-basis: 25%;
+	padding-right: .5em;
 }
-h2 {
-}
-h1, h2, h3, p, ul {
-	padding: .25em 0;
+ul {
+	margin: 0em 3em;
+	padding: 0;
 }
